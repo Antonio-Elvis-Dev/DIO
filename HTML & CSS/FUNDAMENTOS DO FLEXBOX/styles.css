@@ -1,0 +1,10 @@
+.flex{
+    max-width: 30rem;
+    padding: 1rem;
+    border: .2rem solid black;
+    display: flex;
+}
+.item{
+    background-color:aqua;
+    margin: .5rem;
+}
