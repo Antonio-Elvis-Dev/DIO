@@ -1,0 +1,12 @@
+.flex-container{
+    display: flex;
+    border: .2rem solid black;
+    max-width: 35rem;
+}
+
+.item{
+    margin: .5rem;
+    background-color:orangered;
+    text-align: center;
+    font-size: 2.4rem;
+}
