@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    border: .2rem solid black;
+    max-width: 40rem;
+    margin: .5rem;
+}
+
+.item{
+    background-color:brown;
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+    margin: .5rem;
+}
+.flex-1{
+    flex: 1;   
+    /* grow = 1 ; shrink = 1 ; basis = 0 */
+}
+
+.largura{
+    width:20rem;
+    /* min-width: 20rem; */
+}
+
+.flex-2{
+    flex: 2;   
+    /* grow = 2 ; shrink = 1 ; basis = 0 */
+}

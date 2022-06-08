@@ -9,8 +9,36 @@
     <title>FUNDAMENTO DE FLEX SHRINK</title>
 </head>
 <body>
+    <p>flex SHRINK 1</p>
     <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">D</div>
+        <div class="item s-1 fg-1">E</div>
+    </div>
+
+    
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-1 fg-1">B</div>
+        <div class="item s-1 fg-1">C</div>
+        <div class="item s-1 fg-1">Lorem ipsum</div>
         
+    </div>
+    <p>flex SHRINK 0 / basis 10rem</p>
+    <div class="flex-container">
+        <div class="item s-0 fg-1">A</div>
+        <div class="item s-0 fg-1">C</div>
+        <div class="item s-0 fg-1"> ipsum</div>
+        <div class="item s-0 fg-1">Lorem </div>
+    </div>
+    <p>flex SHRINK 0 / basis 10rem</p>
+    <div class="flex-container">
+        <div class="item s-1 fg-1">A</div>
+        <div class="item s-2 fg-1">C</div>
+        <div class="item s-2 fg-1">Lorem </div>
+        <div class="item s-3 fg-1">Lorem </div>
     </div>
 </body>
 </html>
