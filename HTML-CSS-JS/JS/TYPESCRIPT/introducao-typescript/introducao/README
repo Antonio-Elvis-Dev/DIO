@@ -1,0 +1,10 @@
+INSTALAR:
+ NPM INSTALL --SAVE-DEV TYPESCRIPT
+ NPM INSTALL TSC
+ NPM INSTALL LITE-SERVER
+ NPM INIT
+
+
+ PACKAGE.JSON: 
+"start":"lite-server index.html",
+"watch": "tsc --watch",
